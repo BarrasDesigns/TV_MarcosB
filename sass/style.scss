@@ -1,16 +1,23 @@
-@use 'title';
-@use 'nav';
+@use 'aboutme';
+@use 'hero';
 
-$ColorFondo: #294fa7;
+$primary-color: rgba(9, 9, 121, 1);
+$secondary-color: rgb(13, 117, 137);
+$gradient-angle: 90deg;
+
 $ColorLetra: white;
 $Roboto: "Roboto", sans-serif;
 
-#wrapper{
-    background-color: $ColorFondo;
+body {
+    background: linear-gradient($gradient-angle, $primary-color 35%, $secondary-color 100%);
+    font-family: $Roboto;
+    color: $ColorLetra;
+}
+
+#wrapper {
     margin-left: 2.5%;
     width: 95%;
     border-radius: 5%;
 }
-body{
-    font-family: $Roboto;
-}
+
+@media only screen and (max-width: 460px) {}
