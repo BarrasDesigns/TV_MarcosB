@@ -1,18 +1,19 @@
-.title {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 3rem;
+// .title {
+//     display: flex;
+//     justify-content: center;
+//     text-align: center;
+//     margin-top: 3rem;
+//     color: white;
+// }
 
-}
+// .title2 {
 
-.title2 {
+//     display: flex;
+//     justify-content: center;
+//     text-align: center;
+//     margin-top: -23%;
+// }
 
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: -23%;
-}
 .objectfitCont {
     display: flex;
     justify-content: space-around;
@@ -31,6 +32,7 @@
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
+
 .objectfit {
     display: flex;
     justify-content: space-around;
@@ -86,8 +88,8 @@
 }
 
 @media (min-width: 960px) {
-.objectfitCont{
-    flex-direction: column;
-}
+    .objectfitCont {
+        flex-direction: column;
+    }
 
 }

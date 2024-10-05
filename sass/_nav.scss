@@ -1,0 +1,24 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+li {
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+a:hover{
+    background-color: white;
+    color: blue!important;
+}
