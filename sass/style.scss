@@ -1,0 +1,16 @@
+@use 'title';
+
+
+$ColorFondo: #294fa7;
+$ColorLetra: white;
+$Roboto: "Roboto", sans-serif;
+
+#wrapper{
+    background-color: $ColorFondo;
+    margin-left: 2.5%;
+    width: 95%;
+    border-radius: 5%;
+}
+body{
+    font-family: $Roboto;
+}
